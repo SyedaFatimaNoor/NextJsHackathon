@@ -42,8 +42,8 @@ const HeroSection = () => {
             <div className="bg-[#2A254B] flex items-center justify-center">
               <Image
                 src={"/images/Right Image.png"}
-                height={400}
-                width={200}
+                height={5000}
+                width={5000}
                 alt={"Featured Furniture"}
                 className="w-full h-full object-cover"
               />

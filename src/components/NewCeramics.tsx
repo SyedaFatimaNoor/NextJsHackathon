@@ -12,8 +12,8 @@ interface ProductCardProps {
         <Image
           src={image}
           alt={title}
-          width={100}
-          height={100}
+          width={5000}
+          height={5000}
           className="w-full h-full object-cover"
         />
       </div>
@@ -32,7 +32,7 @@ interface ProductCardProps {
         price: "250"
       },
       {
-        image: "/images/photopot.png",
+        image: "/images/new5.png",
         title: "Rustic Vase Set",
         price: "155"
       },

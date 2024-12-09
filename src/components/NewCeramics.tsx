@@ -32,7 +32,7 @@ interface ProductCardProps {
         price: "250"
       },
       {
-        image: "/images/Photo2.png",
+        image: "/images/photopot.png",
         title: "Rustic Vase Set",
         price: "155"
       },

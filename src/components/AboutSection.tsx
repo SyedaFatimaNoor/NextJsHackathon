@@ -1,3 +1,4 @@
+import Image from "next/image";
 const AboutSection = () => {
     return (
       <section className="grid grid-cols-1 lg:grid-cols-2">
@@ -20,7 +21,7 @@ const AboutSection = () => {
           </div>
         </div>
         <div className="h-[600px] bg-[#F5F5F5]">
-          <img
+          <Image
             src={"/images/about.png"}
             height={600}
             width={720}

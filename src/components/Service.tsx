@@ -1,9 +1,10 @@
+import Image from "next/image";
 const Service = () => {
     return (
       <section className="grid grid-cols-1 lg:grid-cols-2">
         {/* Right Section (Image) */}
         <div className="h-[600px] bg-[#F5F5F5]">
-          <img
+          <Image
             src={"/images/service.png"}
             height={600}
             width={720}

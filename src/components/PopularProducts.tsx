@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 const PopularProducts = () => {
   const products = [
     {
@@ -32,7 +33,7 @@ const PopularProducts = () => {
             className="bg-[#F5F5F5] mx-auto"
             style={{ maxWidth: "100%", height: "375px" }}
           >
-            <img
+            <Image
               src={products[0].image}
               alt={products[0].title}
               className="w-full h-full object-cover"
@@ -54,7 +55,7 @@ const PopularProducts = () => {
                 className="bg-[#F5F5F5] mx-auto"
                 style={{ maxWidth: "100%", height: "375px" }}
               >
-                <img
+                <Image
                   src={product.image}
                   alt={product.title}
                   className="w-full h-full object-cover"

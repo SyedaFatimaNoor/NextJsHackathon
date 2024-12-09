@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
     <div className="max-w-4xl mx-auto px-4 py-8">   
       {submitted ? (  
         <div className="text-green-500 text-center">  
-          Thank you for your message! We'll get back to you soon.  
+          Thank you for your message! We&#39;ll get back to you soon.  
         </div>  
       ) : (  
         <form onSubmit={handleSubmit} className="space-y-4">  

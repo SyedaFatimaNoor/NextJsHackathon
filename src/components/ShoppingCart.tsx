@@ -1,3 +1,4 @@
+import Image from "next/image";
 const ShoppingCart = () => {  
   const cartItems = [  
     {  
@@ -33,7 +34,7 @@ const ShoppingCart = () => {
       {cartItems.map((item) => (  
         <div key={item.id} className="grid grid-cols-4 items-center py-4 border-b border-gray-200">  
           <div className="flex items-start">  
-            <img  
+            <Image  
               src={item.image}  
               alt={item.title}  
               className="w-16 h-16 object-cover"  

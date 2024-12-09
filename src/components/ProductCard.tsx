@@ -1,3 +1,4 @@
+import Image from "next/image";
 interface ProductCardProps {
   image: string;
   title: string;
@@ -9,7 +10,7 @@ const ProductCard = ({ image, title, price }: ProductCardProps) => {
     <div className="flex flex-col gap-6 cursor-pointer group transition duration-300 hover:shadow-lg hover:scale-105">
       {/* Image Container */}
       <div className="bg-[#F5F5F5] aspect-[4/5] overflow-hidden rounded-lg">
-        <img
+        <Image
           src={image}
           alt={title}
           className="w-full h-full object-cover transition duration-300 transform group-hover:scale-110"

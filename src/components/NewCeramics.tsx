@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 interface ProductCardProps {
     image: string;
     title: string;
@@ -8,9 +9,11 @@ interface ProductCardProps {
   const ProductCard = ({ image, title, price }: ProductCardProps) => (
     <div className="flex flex-col gap-6">
       <div className="bg-[#F5F5F5] aspect-[4/5]">
-        <img
+        <Image
           src={image}
           alt={title}
+          width={100}
+          height={100}
           className="w-full h-full object-cover"
         />
       </div>

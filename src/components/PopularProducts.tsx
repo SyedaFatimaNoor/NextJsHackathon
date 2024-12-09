@@ -36,6 +36,8 @@ const PopularProducts = () => {
             <Image
               src={products[0].image}
               alt={products[0].title}
+              width={1000}
+              height={1000}
               className="w-full h-full object-cover"
             />
           </div>
@@ -58,6 +60,8 @@ const PopularProducts = () => {
                 <Image
                   src={product.image}
                   alt={product.title}
+                  width={100}
+                  height={100}
                   className="w-full h-full object-cover"
                 />
               </div>

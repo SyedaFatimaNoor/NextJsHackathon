@@ -39,20 +39,27 @@
   src: url('/fonts/ClashDisplay-Regular.otf') format('opentype');  
   font-weight: 400;  
   font-style: normal;  
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+}  
+@font-face {  
+  font-family: 'ClashDisplay';  
+  src: url('/fonts/ClashDisplay-Bold.otf') format('opentype');  
+  font-weight: 700;  
+  font-style: normal;  
+}  
+@font-face {  
+  font-family: 'ClashDisplay';  
+  src: url('/fonts/ClashDisplay-Semibold.otf') format('opentype');  
+  font-weight: 600;  
+  font-style: normal;  
+}  
+@font-face {  
+  font-family: 'ClashDisplay';  
+  src: url('/fonts/ClashDisplay-Light.otf') format('opentype');  
+  font-weight: 300;  
+  font-style: normal;  
+}  
+ 
+ 
+body {  
+  font-family: 'Satoshi', sans-serif;  
+}  

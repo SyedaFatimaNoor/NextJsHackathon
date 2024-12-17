@@ -32,7 +32,7 @@ const HeroSection = () => {
                     View collection
                   </button>
                 </Link>
-                <p className="w-[602px] h-[81px]text-[#FFFFFF] mt-[350px] leading[27px] text-lg font-light --font-Satoshi leading-6">
+                <p className="text-[#FFFFFF] mt-[350px] leading[27px] text-lg font-light --font-Satoshi leading-6">
                   A new era in eco-friendly furniture with Avion, the French luxury retail brand with nice fonts, tasteful colors, and a beautiful way to display things digitally using modern web technologies.
                 </p>
               </div>

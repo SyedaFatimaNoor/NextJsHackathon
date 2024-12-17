@@ -1,3 +1,5 @@
+import BackToTop from "@/components/BackToTop";
+import FlareCursor from "@/components/FlareCusror";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -12,8 +14,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" className="overflow-x-hidden">
+      <body className="overflow-x-hidden">
+        {children}
+        <FlareCursor />
+        <BackToTop />
+        </body>
     </html>
   );
 }
